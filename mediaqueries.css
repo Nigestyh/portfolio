@@ -160,15 +160,16 @@
   }
 
   .image-container {
-    max-width: 260px;
+    max-width: 235px;
   }
   #profile {
-    gap: 5rem;
+    gap: 1rem;
     margin-bottom: 5vh;
   }
 
   .about-pic {
-    height: 290px;
+    height: 260px;
+    width: auto;
   }
   #about,
   #skills {
@@ -195,23 +196,33 @@
   }
 
   .btn {
-    font-size: 1.4rem;
-    padding: 1.2rem;
-    width: 12rem;
+    font-size: 1.3rem;
+    padding: 1.1rem;
+    width: 11rem;
+  }
+  .dark-bg {
+    width: 9rem;
+    height: 8rem;
+    padding: 1rem 2rem;
+  }
+  .tech-label {
+    font-size: 1.1rem;
   }
 }
 
 /*400px — Small phones = 25rem */
 @media (max-width: 25rem) {
   .menu-links.open a {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .logo {
     font-size: 2.4rem;
   }
 
   .image-container {
-    max-width: 230px;
+    max-width: 220px;
+    height: auto;
+    margin-bottom: 2rem;
   }
 
   #profile {
@@ -232,21 +243,13 @@
     font-size: 2.4rem;
   }
   .about-pic {
-    height: 280px;
+    height: 220px;
   }
   .about_me-container p {
     font-size: 1.2rem;
     line-height: 2rem;
   }
 
-  .dark-bg {
-    width: 7rem;
-    height: 7rem;
-    padding: 1rem 2rem;
-  }
-  .tech-label {
-    font-size: 1.1rem;
-  }
   h3 {
     font-size: 2.5rem;
     margin-top: 4rem;
@@ -274,10 +277,7 @@
     font-size: 1.4rem;
     line-height: normal;
   }
-  #profile,
-  #about {
-    padding-top: 7vh;
-  }
+
   #about {
     margin-bottom: 10vh;
   }
