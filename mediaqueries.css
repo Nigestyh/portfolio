@@ -1,0 +1,292 @@
+/*1200px — Large screens / Laptops = 75rem */
+@media (max-width: 75rem) {
+  html {
+    font-size: 56.25%;
+    scroll-behavior: smooth;
+  }
+
+  section,
+  #profile,
+  #about,
+  #skills,
+  #projects,
+  #contact {
+    margin: 0 5rem;
+  }
+
+  .image-container {
+    width: 340px;
+    height: 340px;
+  }
+
+  .section_container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-pic {
+    height: 350px;
+  }
+  .about_me-container p {
+    font-size: 1.6rem;
+  }
+
+  .about_me_title,
+  .projects-title,
+  .skills-title,
+  .contact-title {
+    font-size: 3.3rem;
+  }
+}
+
+@media screen and (max-width: 72.5rem) {
+  /* 1160px /16px = 72.5rem*/
+  section {
+    height: auto;
+  }
+  #about {
+    margin-bottom: 11vh;
+  }
+  #skills {
+    margin-block: 15vh;
+  }
+
+  .about-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .section_container {
+    gap: 2.3rem;
+  }
+  .about_me-container {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 66.6rem) {
+  /* 1065px /16px = 69.6rem*/
+  .about-pic {
+    height: 340px;
+    width: 100%;
+  }
+  .section_container {
+    margin-top: 2rem;
+  }
+
+  .btn-container {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+  }
+  .tools-platforms-wrapper {
+    justify-content: center;
+  }
+  .tech_stack-icon,
+  .tools-platforms-icon {
+    justify-content: center;
+    gap: 1.8rem;
+  }
+  .dark-bg {
+    width: 11rem;
+    height: 8rem;
+  }
+}
+/*900px — Tablets / Small laptops = 75rem */
+
+@media (max-width: 56.25rem) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+
+  #profile {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 9rem;
+  }
+
+  .image-container {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .profile-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section_text-p1,
+  .section_text-p2 {
+    text-align: center;
+  }
+
+  .wrapper,
+  .socials-container {
+    justify-content: center;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .about-pic {
+    height: 310px;
+  }
+  .about_me-container p {
+    font-size: 1.5rem;
+  }
+}
+
+/*600px — Mobile phones/ = 37.5rem */
+@media (max-width: 37.5rem) {
+  .menu-links.open a {
+    font-size: 2rem;
+  }
+  section,
+  #profile,
+  #about,
+  #skills,
+  #projects,
+  #contact {
+    margin: 0 2rem;
+  }
+  .title {
+    font-size: 2.2rem;
+  }
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+
+  .image-container {
+    max-width: 260px;
+  }
+  #profile {
+    gap: 5rem;
+    margin-bottom: 5vh;
+  }
+
+  .about-pic {
+    height: 290px;
+  }
+  #about,
+  #skills {
+    margin-bottom: 5vh;
+  }
+  .about_me_title,
+  .projects-title,
+  .skills-title,
+  .contact-title {
+    font-size: 2.6rem;
+  }
+
+  .about_me-container p {
+    font-size: 1.4rem;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .section_text-p1 {
+    font-size: 2.2rem;
+  }
+  .section_text-p2 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    width: 12rem;
+  }
+}
+
+/*400px — Small phones = 25rem */
+@media (max-width: 25rem) {
+  .menu-links.open a {
+    font-size: 1.8rem;
+  }
+  .logo {
+    font-size: 2.4rem;
+  }
+
+  .image-container {
+    max-width: 230px;
+  }
+
+  #profile {
+    gap: 0.3rem;
+    margin-bottom: 10vh;
+  }
+  .section_text-p1 {
+    font-size: 2rem;
+  }
+  .section_text-p2 {
+    font-size: 1.3rem;
+  }
+
+  .about_me_title,
+  .projects-title,
+  .skills-title,
+  .contact-title {
+    font-size: 2.4rem;
+  }
+  .about-pic {
+    height: 280px;
+  }
+  .about_me-container p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .dark-bg {
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem 2rem;
+  }
+  .tech-label {
+    font-size: 1.1rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+  }
+  .contact-info-container {
+    flex-wrap: wrap;
+    margin: 1rem;
+  }
+  .contact-link {
+    font-size: 1.4rem;
+  }
+  .nav-links {
+    gap: 3rem;
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 355px) {
+  .title {
+    font-size: 1.9rem;
+  }
+  .profile-img-container {
+    display: none;
+  }
+  .about_me-container p {
+    font-size: 1.4rem;
+    line-height: normal;
+  }
+  #profile,
+  #about {
+    padding-top: 7vh;
+  }
+  #about {
+    margin-bottom: 10vh;
+  }
+  .contact-info-container {
+    flex-wrap: wrap;
+    margin: 0.5rem;
+  }
+  .nav-links {
+    gap: 3rem;
+    font-size: 1.5rem;
+  }
+}
