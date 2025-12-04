@@ -57,16 +57,12 @@
   .section_container {
     gap: 2.3rem;
   }
-  .about_me-container {
-    text-align: justify;
-  }
 }
 
 @media screen and (max-width: 66.6rem) {
   /* 1065px /16px = 69.6rem*/
   .about-pic {
-    height: 340px;
-    width: 100%;
+    height: 310px;
   }
   .section_container {
     margin-top: 2rem;
@@ -99,6 +95,9 @@
   #hamburger-nav {
     display: flex;
   }
+  .logo {
+    font-size: 2.9rem;
+  }
 
   #profile {
     flex-wrap: wrap;
@@ -109,7 +108,7 @@
   .image-container {
     display: block;
     width: 100%;
-    max-width: 300px;
+    max-width: 290px;
     margin: 0 auto;
   }
   .profile-img {
@@ -132,7 +131,8 @@
     gap: 2rem;
   }
   .about-pic {
-    height: 310px;
+    height: 270px;
+    width: auto;
   }
   .about_me-container p {
     font-size: 1.5rem;
@@ -164,14 +164,23 @@
   }
   #profile {
     gap: 1rem;
-    margin-bottom: 5vh;
+    margin-bottom: 9vh;
+    padding-top: 6vh;
   }
 
-  .about-pic {
-    height: 260px;
-    width: auto;
+  .profile-img-container {
+    display: none;
   }
-  #about,
+  .section_container {
+    margin-top: 3rem;
+  }
+  .about_me-container {
+    max-width: 400px;
+  }
+  #about {
+    height: 96vh;
+  }
+
   #skills {
     margin-bottom: 5vh;
   }
@@ -183,7 +192,8 @@
   }
 
   .about_me-container p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
     max-width: 90%;
     margin: auto;
   }
@@ -195,11 +205,6 @@
     font-size: 1.5rem;
   }
 
-  .btn {
-    font-size: 1.3rem;
-    padding: 1.1rem;
-    width: 11rem;
-  }
   .dark-bg {
     width: 9rem;
     height: 8rem;
@@ -217,6 +222,9 @@
   }
   .logo {
     font-size: 2.4rem;
+  }
+  .title {
+    font-size: 1.9rem;
   }
 
   .image-container {
@@ -242,51 +250,37 @@
   .contact-title {
     font-size: 2.4rem;
   }
-  .about-pic {
-    height: 220px;
-  }
-  .about_me-container p {
-    font-size: 1.2rem;
-    line-height: 2rem;
+  .section_container {
+    margin-top: 1rem;
   }
 
-  h3 {
-    font-size: 2.5rem;
-    margin-top: 4rem;
+  .about_me-container p {
+    font-size: 1.4rem;
   }
+  .btn {
+    width: 11rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+
   .contact-info-container {
     flex-wrap: wrap;
-    margin: 1rem;
+    margin: 0.7rem;
   }
   .contact-link {
     font-size: 1.4rem;
   }
   .nav-links {
     gap: 3rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
-}
-@media (max-width: 355px) {
-  .title {
-    font-size: 1.9rem;
+  h3 {
+    font-size: 2.1rem;
+    margin-top: 3rem;
   }
-  .profile-img-container {
-    display: none;
-  }
-  .about_me-container p {
-    font-size: 1.4rem;
-    line-height: normal;
-  }
-
-  #about {
-    margin-bottom: 10vh;
-  }
-  .contact-info-container {
-    flex-wrap: wrap;
-    margin: 0.5rem;
-  }
-  .nav-links {
-    gap: 3rem;
-    font-size: 1.5rem;
+  .dark-bg {
+    width: 7rem;
+    height: 7rem;
+    padding: 0.6rem 1.8rem;
   }
 }
